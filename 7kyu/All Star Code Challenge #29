@@ -1,0 +1,4 @@
+function reverseSentence(str){
+//code here
+return str.split` `.map(v=>v.split``.reverse().join``).join` `
+}
