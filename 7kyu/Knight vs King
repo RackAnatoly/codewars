@@ -1,0 +1,4 @@
+function knightVsKing([x1, y1], [x2, y2]) {
+  let dx = x2 - x1, dy = y2.charCodeAt() - y1.charCodeAt(), d = dx * dx + dy * dy;
+  return d == 5 ? 'Knight' : d < 3 ? 'King' : 'None';
+}
